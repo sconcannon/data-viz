@@ -1,10 +1,7 @@
 #test tweepy StreamListener
 import tweepy
 # The user credential variables to access Twitter API
-access_token = "20711121-pENR4F1xK37htgnctAkDzLyMERU1eBIDge0zueilZ"
-access_token_secret = "0W8WznRmGL8tSHbuBt46m6rg4xwq3vDIPNEnESWDQF0jP"
-consumer_key = "YDh4XeWWdUu0j7PwvPhMWKoJt"
-consumer_secret = "DE4HfvGBSqXYAR1GpyI2hBvkVVp0IaLpEiPokDafxrTCLxn7sk"
+
 # connect
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
